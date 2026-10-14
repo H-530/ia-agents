@@ -87,18 +87,6 @@ await printAgentStream(session.stream(), { verbosity: 'verbose' });
 | `onInteractionEnd` | After LLM turn | Observe (logging, metrics) |
 | `onAgentEnd` | After agent completes | Inject follow-up input |
 
-## Examples
-
-| Example | Description |
-|---------|-------------|
-| [`simple.ts`](./examples/simple.ts) | Core agent loop with a custom tool |
-| [`multi-turn.ts`](./examples/multi-turn.ts) | Multi-turn conversation |
-| [`cli.ts`](./examples/cli.ts) | Interactive chat REPL |
-| [`agent-simple.ts`](./examples/agent-simple.ts) | Agent package with hooks |
-| [`agent-with-hooks.ts`](./examples/agent-with-hooks.ts) | Bash tool with command blocking |
-| [`agent/all-tools.ts`](./examples/agent/all-tools.ts) | All built-in tools |
-| [`agent/skills.ts`](./examples/agent/skills.ts) | Skills artifact loading |
-| [`agent/subagents.ts`](./examples/agent/subagents.ts) | Subagent delegation |
 
 ## Development
 
