@@ -1,30 +1,36 @@
-# ia-agents
+# 🤖 ia-agents
 
-Minimal agent framework for the **Gemini Interactions API**.
+[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](LICENSE)
+[![TypeScript](https://img.shields.io/badge/TypeScript-Ready-blue?logo=typescript)](https://www.typescriptlang.org/)
+[![Bun](https://img.shields.io/badge/Bun-%23000000.svg?logo=bun&logoColor=white)](https://bun.sh)
 
+Minimal, high-performance agent framework built for the **Gemini Interactions API**.
 
-## Features
+---
 
-- 🔄 **Streaming Agent Loop** — Built on the stateful Interactions API with multi-turn, multi-modal support
-- 🛠️ **Tool Calling** — Define tools with JSON Schema and let Gemini execute them
-- 🪝 **Hooks System** — Intercept and control agent lifecycle events (block, modify, observe, inject)
-- 🧰 **Built-in Tools** — File I/O, bash, grep, web search, planning, and more out of the box
-- 🧩 **Skills & Subagents** — Extend capabilities with disk-loaded YAML+Markdown artifacts
-- ⚙️ **Configuration** — Typesafe config via `settings.json` and `AGENT_*` environment variables
-- 📦 **Modular Packages** — Use the core or add the agent wrapper as needed
+## 🌟 Features
 
-## Installation
+- 🔄 **Streaming Agent Loop** — Built on the stateful Interactions API with multi-turn, multi-modal support.
+- 🛠️ **Tool Calling** — Define tools with JSON Schema and let Gemini execute them seamlessly.
+- 🪝 **Hooks System** — Intercept and control agent lifecycle events (block, modify, observe, inject).
+- 🧰 **Built-in Tools** — File I/O, bash, grep, web search, planning, and more right out of the box.
+- 🧩 **Skills & Subagents** — Extend capabilities dynamically with disk-loaded YAML + Markdown artifacts.
+- ⚙️ **Configuration** — Typesafe config via `settings.json` and `AGENT_*` environment variables.
+- 📦 **Modular Packages** — Use the lightweight core or add the high-level agent wrapper as needed.
+
+---
+
+## 📦 Installation
 
 ```bash
-# bun
+# Using Bun (Recommended)
 bun add agents-core ia-agent
 
-# npm
+# Using npm
 npm install agents-core ia-agent
-```
 
 ## Quick Start
-
+```
 ```bash
 bun install
 bun run build                # Build packages
